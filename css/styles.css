@@ -1,0 +1,149 @@
+/* Main stylesheet for A First Look at Oaxaca */
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f3eadc;
+    color: #34261f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+header,
+footer {
+    padding: 1.5em;
+    background-color: #8b3f2f;
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    margin-top: 1em;
+    border-bottom: 6px solid #d39a3b;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+h2 {
+    color: #7a3328;
+    font-size: 1.6em;
+}
+
+h3 {
+    color: #355a3a;
+    font-size: 1.2em;
+}
+
+nav {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid #e2bfae;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 0.3em;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a.current {
+    color: #fff0a8;
+    text-decoration: underline;
+}
+
+main {
+    padding: 1em 0;
+}
+
+article,
+section,
+aside {
+    margin-bottom: 1em;
+    padding: 1.2em 1.5em;
+    background-color: #fffaf2;
+    border-left: 5px solid #d39a3b;
+}
+
+article section {
+    padding: 0.5em 1em;
+    background-color: #f8f0e3;
+    border-left: 3px solid #74915b;
+}
+
+.hero img {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    border: 1px solid #b97645;
+}
+
+.hero img.portrait-photo {
+    width: 40%;
+}
+
+.content-photo {
+    display: block;
+    width: 70%;
+    margin: 1em auto 0.3em;
+    border: 1px solid #b97645;
+}
+
+.photo-credit {
+    margin-top: 0;
+    font-size: 0.85em;
+    font-style: italic;
+    text-align: center;
+}
+
+aside {
+    background-color: #eee3d1;
+    border-left-color: #74915b;
+}
+
+progress {
+    width: 60%;
+    height: 1.2em;
+}
+
+q {
+    color: #7a3328;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+}
+
+output {
+    display: block;
+    padding: 0.8em;
+    background-color: #eee3d1;
+    color: #355a3a;
+    border: 1px solid #74915b;
+}
+
+.update-note ins {
+    color: #355a3a;
+}
+
+footer {
+    margin-bottom: 1em;
+    border-top: 6px solid #d39a3b;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #fff0a8;
+}
